@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>ibu</title>
+<link rel="stylesheet" type="text/css" href="css/csshake.min.css">
+<link type="text/css" href="css/csshake.min.css">
+<style type="text/css">
+
+
+body {
+	background-image: url(n5.jpg);
+	background-position:50% 50%;
+	background-attachment:fixed;
+	background-repeat: no-repeat;
+
+
+}
+body,td,th {
+	font-family: "MS Serif", "New York", serif;
+	font-weight: bold;
+	color: #000;
+	font-size: 36px;
+}
+.color {
+	color: #9C0;
+}
+
+</style>
+</head>
+
+<body>
+
+<link type="text/css" href="csshake.css">
+<div class="shake shake-hard">
+<h1 align="center" <font> ! </h1></div>
+</div>
+
+
+<script type="text/javascript">
+function AlertIt() {
+	//亂數
+	var myrandom=Math.round(Math.random()*2)
+	//訊息清單
+	var messages=new Array()
+	messages[0]="有新點子!"
+	messages[1]="缺乏靈感嗎?"
+	messages[2]="要來點不一樣的嗎?"
+	//連結清單
+	var links=new Array()
+	links[0]="https://www.zeczec.com/"
+	links[1]="http://www.mydesy.com/"
+	links[2]="http://www.theuselessweb.com/"
+	//點下去要顯示
+	var answer = confirm (messages[myrandom])
+	//如果點「是」
+	if (answer)
+	window.location=links[myrandom]
+}
+</script> 
+
+<marquee direction="right">
+<a href="javascript:AlertIt();"><img src="n3.png" width="130" height="87" alt="a" /></a>
+</marquee>
+
+
+<marquee scrollamount behavior="slide" scrollamount="6"  >
+<a href="javascript:AlertIt();"><img src="a.png" width="130" height="87" alt="a" /></a>
+</marquee>
+
+<marquee behavior="alternate" >
+<a href="javascript:AlertIt();"><img src="a1.png" width="130" height="67" alt="a" /></a>
+</marquee>
+
+<marquee direction="left" >
+<a href="javascript:AlertIt();"><img src="a2.png" width="150" height="45" alt="a" /></a>
+</marquee>
+
+
+
+
+
+</body>
+</html>
